@@ -6,5 +6,5 @@ class Todo
   field :url, type: String
   field :completed, type: Boolean, default: FALSE
   field :order, type: Integer
-
+  field :due_date, type: String
 end
